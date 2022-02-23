@@ -8,6 +8,10 @@ const app = express();
 app.set('view engine','ejs');
 app.set('views','./views')
 
+// Serving Static Files
+app.use(express.static('assets'))
+
+
 // Use Express Router Middleware
 app.use('/',require('./routes'))
 
