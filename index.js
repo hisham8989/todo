@@ -4,6 +4,10 @@ const port = 9000;
 const app = express();
 
 
+//View Templetes for for Front End
+app.set('view engine','ejs');
+app.set('views','./views')
+
 // Use Express Router Middleware
 app.use('/',require('./routes'))
 
