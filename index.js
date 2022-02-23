@@ -4,10 +4,8 @@ const port = 9000;
 const app = express();
 
 
-//MiddleWares
-
-//template engine
-// app.use('view engine',__dirname)
+// Use Express Router Middleware
+app.get('/',require('./routes'))
 
 
 app.listen(port,function(err){
