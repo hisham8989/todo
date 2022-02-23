@@ -1,0 +1,14 @@
+{
+  "name": "codeial",
+  "version": "1.0.0",
+  "description": "A very Simple social program",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Hisham khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
