@@ -5,7 +5,7 @@ const app = express();
 
 
 // Use Express Router Middleware
-app.get('/',require('./routes'))
+app.use('/',require('./routes'))
 
 
 app.listen(port,function(err){
