@@ -1,5 +1,5 @@
-module.exports.home = function(req,res){
-    return res.render('home',{
-        title:"Codiel | Home"
-    })
+module.exports.home = function (req, res) {
+  return res.render('home', {
+    title: 'ToDo | Home',
+  })
 }
