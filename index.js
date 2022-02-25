@@ -9,6 +9,7 @@ const db = require('./config/mongoose')
 // form data
 app.use(express.urlencoded())
 
+
 //View Templetes for for Front End
 app.set('view engine','ejs');
 app.set('views','./views')
