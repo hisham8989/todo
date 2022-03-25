@@ -67,7 +67,7 @@ deleteTask.addEventListener('click', (e) => {
   var xhr = new XMLHttpRequest()
   xhr.open('GET', url, true)
   xhr.send()
-  location.reload()
+  location.reload()   // refresh
 })
 
 // var xhr = new XMLHttpRequest();
