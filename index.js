@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const port = 9000;
+const port = process.env.port || 9000;
 const app = express();
 
 //  Connection
